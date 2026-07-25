@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, GraduationCap, Phone } from 'lucide-react';
+import logo from "../assets/Link-Logo-→-Pavna-School-Logo.webp";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);

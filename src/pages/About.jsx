@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, CheckCircle, Target, Heart } from 'lucide-react';
+import rectangle from "../assets/Rectangle-1-3.webp"
 
 export default function About() {
     return (
@@ -12,6 +13,28 @@ export default function About() {
                     <p className="mt-4 text-slate-400 text-base sm:text-lg">
                         Founded in 1998 by Shri Pawan Jain (Pavna Group), formerly DPS Aligarh.
                     </p>
+                </div>
+
+                {/* Campus Showcase Section */}
+                <div className="relative mb-20 rounded-3xl overflow-hidden border border-slate-800 shadow-2xl group">
+                    <img
+                        src={rectangle}
+                        alt="Pavna School Infrastructure"
+                        className="w-full h-[400px] sm:h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent flex items-end p-6 sm:p-10">
+                        <div>
+                            <span className="bg-gold-500/20 border border-gold-500/40 text-gold-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full backdrop-blur-md">
+                                Aligarh Campus
+                            </span>
+                            <h3 className="text-2xl sm:text-3xl font-extrabold text-white mt-3">
+                                State-of-the-Art Infrastructure & Athletic Grounds
+                            </h3>
+                            <p className="text-slate-300 text-sm sm:text-base max-w-2xl mt-1">
+                                Spanning across acres of modern academic blocks, sports complexes, and futuristic learning hubs.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Content Section */}
@@ -37,7 +60,7 @@ export default function About() {
                     </div>
 
                     <div className="p-8 rounded-2xl bg-slate-900 border border-slate-800 relative">
-                        <div className="absolute -top-4 -right-4 p-4 bg-gold-500 text-navy-950 rounded-xl font-bold">
+                        <div className="absolute -top-4 -right-4 p-4 bg-gold-500 text-navy-950 rounded-xl font-bold shadow-lg shadow-gold-500/20">
                             <Award className="w-8 h-8" />
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-4">Management Message</h3>

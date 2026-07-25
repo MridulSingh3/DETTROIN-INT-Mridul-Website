@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
+import ai from "../assets/Academic-Visit-15.webp";
+import cricket from "../assets/Academic-Visit-2.webp";
+import science from "../assets/Academic-Visit-17.webp"
+import i from "../assets/Group-3-1.webp";
 
 const galleryData = [
-    { id: 1, title: 'AI & Robotics Lab', category: 'Academics', img: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80' },
-    { id: 2, title: 'Cricket Tournament', category: 'Sports', img: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80' },
-    { id: 3, title: 'Annual Cultural Fest', category: 'Events', img: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=600&q=80' },
-    { id: 4, title: 'Olympic Pool Swimming', category: 'Sports', img: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=600&q=80' },
-    { id: 5, title: 'Science Exhibition', category: 'Academics', img: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80' },
-    { id: 6, title: 'Boarding Campus Living', category: 'Campus', img: 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=600&q=80' },
+    { id: 1, title: 'AI & Robotics Lab', category: 'Academics', img: ai },
+    { id: 2, title: 'Cricket Tournament', category: 'Sports', img: cricket },
+    { id: 3, title: 'Annual Cultural Fest', category: 'Events', img: i },
+    { id: 4, title: 'Olympic Pool Swimming', category: 'Sports', img: cricket },
+    { id: 5, title: 'Science Exhibition', category: 'Academics', img: science },
+    { id: 6, title: 'Boarding Campus Living', category: 'Campus', img: ai },
 ];
 
 export default function Gallery() {
@@ -31,8 +35,8 @@ export default function Gallery() {
                             key={cat}
                             onClick={() => setFilter(cat)}
                             className={`px-5 py-2 rounded-full text-sm font-semibold transition ${filter === cat
-                                    ? 'bg-gold-500 text-navy-950'
-                                    : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'
+                                ? 'bg-gold-500 text-navy-950'
+                                : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'
                                 }`}
                         >
                             {cat}
