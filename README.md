@@ -1,16 +1,57 @@
-# React + Vite
+# 🎓 Pavna CBSE School — Modern Web Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, high-performance, and responsive web application designed for **Pavna CBSE School (formerly DPS Aligarh)**. Built using modern frontend technologies, smooth Framer Motion animations, and a luxury dark-mode aesthetic to deliver an engaging digital experience for prospective students and parents.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Project Overview
 
-## React Compiler
+* **Full Name:** Mridul Singh
+* **Intern ID:** NA
+* **Email Address:** mriduldhakad@gmail.com
+* **GitHub Username:** MridulSingh3
+* **Selected Website:** Pavna CBSE School (Aligarh)
+* **Live Demo Link:** https://dettroin-int-mridul-website.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Core Framework:** React.js (Vite / Create React App)
+- **Routing:** React Router DOM (`react-router-dom`)
+- **Styling & UI:** Tailwind CSS, Glassmorphic UI Principles
+- **Animations:** Framer Motion
+- **Icons:** Lucide React (`lucide-react`)
+
+---
+
+## ✨ Key Improvements Made
+
+1. **Luxury Obsidian & Amber Design System:**
+   - Upgraded from generic dark themes to a high-trust, premium palette featuring Deep Obsidian (`#0A0F1D`), Warm Metallic Amber (`#E5A93C`), and rich slate surfaces.
+   - Incorporated glassmorphism, subtle micro-gradients, ambient glowing backdrops, and refined borders (`border-white/10`).
+
+2. **Fluid Framer Motion Animations:**
+   - Implemented smooth page transitions, entrance animations (`fadeInUp`), parallax background dynamics, and hover micro-interactions.
+   - Interactive layout transitions for navigation tabs and category filtering in the gallery.
+
+3. **Enhanced User Experience (UX):**
+   - **Interactive FAQ Accordion:** Animated expand/collapse states with `AnimatePresence`.
+   - **Dynamic Gallery Filter:** Animated category pill navigation (`All`, `Academics`, `Sports`, `Events`, `Campus`) with zero layout shift.
+   - **Responsive Top & Navigation Bar:** Includes a floating quick-contact info bar, sticky header blur, and mobile navigation drawer.
+   - **High-Converting Lead Forms:** Polished instant callback request form and dedicated admission contact forms with customized input states.
+
+---
+
+## 🚀 Getting Started Locally
+
+### Prerequisites
+
+Ensure you have **Node.js** (v16 or higher) installed.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/MridulSingh3/DETTROIN-INT-Mridul-Website.git](https://github.com/MridulSingh3/DETTROIN-INT-Mridul-Website.git)
+   cd DETTROIN-INT-Mridul-Website
