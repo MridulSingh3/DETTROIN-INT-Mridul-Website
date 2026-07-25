@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, GradCap, Phone } from 'lucide-react';
+import { Menu, X, GraduationCap, Phone } from 'lucide-react';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,8 @@ export default function Navbar() {
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-3">
                         <div className="p-2 bg-gold-500 text-navy-950 rounded-xl font-bold">
-                            <GradCap className="w-7 h-7" />
+                            {/* Line 25 fixed below: changed GradCap to GraduationCap */}
+                            <GraduationCap className="w-7 h-7" />
                         </div>
                         <div>
                             <span className="text-xl font-extrabold tracking-wider text-white block leading-tight">PAVNA</span>
